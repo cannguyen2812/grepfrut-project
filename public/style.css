@@ -1,0 +1,297 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{margin: 0px; padding: 0px;}
+
+.introduce ._3cot ._1cot {
+    text-align: center;
+    padding: 0px 9px;
+    color: gray;
+}
+
+.introduce ._3cot ._1cot h3 {
+    color: #4e4a4a;
+    padding: 15px 0px;
+    font-size: 21px;
+    font-family: Segoe Ui;
+}
+
+.introduce .footer_text {
+    color: gray;
+    font-family: Segoe UI;
+    padding: 27px 0px;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 600;
+}
+
+._3cot ._1cot img {
+    background-color: #d95b44;
+    border-radius: 50%;
+}
+
+.introduce ._3cot {}
+
+.introduce ._3cot {
+    display: flex;
+}
+
+.footer .father .introduce {
+}
+
+.footer .father {
+    margin: auto;
+    width: 739px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.iconbutton ul {
+    padding-top: 10px;
+    display: flex;
+}
+
+.iconbutton ul li img {
+    width: 100%;
+}
+
+.middle .iconbutton ul li._1icon {list-style: none;display: flex;width: 140px;cursor: pointer;margin-left: 10px;background-color: #00000042;}
+
+.middle .iconbutton ul li._1icon div {
+    padding-top: 10px;
+}
+
+.middle .iconbutton ul li._1icon:hover {
+    background-color: #000000c2;
+}
+
+.middle .iconbutton {
+    color: white;
+    position: absolute;
+    bottom: 29px;
+    left: 562px;
+    height: 58px;
+    transition: 0.4s;
+}
+
+.middle .iconbutton:hover {
+}
+
+._1slide .text h2 {
+    font-family: segoe ui;
+    color: #d95b44;
+    font-size: 33px;
+    line-height: 33px;
+    font-weight: 600;
+}
+
+._1slide .text span {margin-top: 20px;display: block;color: gray;font-family: Segoe Ui;font-size: 11px;}
+
+.middle .slides ._1slide .text {
+    width: 60%;
+}
+
+.middle .slides .anh img {
+    width: 100%;
+}
+
+.middle .slides .anh {
+    width: 60%;
+}
+
+.menunho>ul>li .phantu .phantu2>li {
+    list-style: none;
+    font-family: Segoe UI;
+    font-size: 12px;
+    background-color: grey;
+    padding-left: 10px;
+    color: #c7c4c4;
+}
+
+.menunho>ul>li .phantu .phantu2 {
+    position: absolute;
+    top: 38px;
+    right: -32px;
+    width: 120px;
+    opacity: 0;
+    visibility: hidden;
+    line-height: 35px;
+    transition: 0.4s;
+    z-index: 10;
+}
+.menunho>ul>li .phantu{
+    position: relative;
+    top: 9px;
+    padding: 10px 10px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.header .menuto .menunho>ul>li a {
+    list-style: none;
+    color: #c7c4c4;
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+}
+
+.menunho>ul>li .phantu:hover{
+    background-color: gray;
+    
+}
+.menunho>ul>li .phantu:hover .phantu2{
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+
+
+.menuto .logo img {width: 70%;margin-top: 13px;cursor: pointer;}
+.header{
+    width: 100%;
+    height: 57px;
+    background-color: #060606de;
+}
+.header .menuto{
+    display: flex;
+    width: 735px;
+    margin: auto;
+}
+.header .menuto .logo{
+    left: 0px;
+    width: 148px;
+}
+.header .menuto .menunho{
+}
+.header .menuto .menunho>ul{
+    display: flex;
+    margin-left: 147px;
+}
+.header .menuto .menunho>ul>li{
+    list-style: none;
+   
+}
+/* het phan menu */
+body,html{width: 100%; height: 100%; overflow-x: hidden;}
+.middle{width: 100%;position: relative;}
+.middle .nen{
+    width: 100%;
+    height: 374px;
+    background-repeat: no-repeat;
+    
+    top: 0px;
+    left: 0px;
+    
+}
+.middle .slides{
+    width: 100%;
+    position: absolute;
+    top: 13px;
+    left: 562px;
+    height: 274px;
+    overflow-y: hidden;
+}
+.middle .slides ._1slide{width: 739px;position: relative;}
+.middle .slides ._1slide .layer2{display: flex;position: absolute;opacity: 0}
+
+
+.middle .slides ._1slide .layer2.active{opacity: 1;}
+
+
+.middle .iconbutton ul li._1icon.kichhoat{
+    background-color:#000000c2 ;
+}
+
+.footer .son{
+    width: 739px;
+    margin: auto;
+}
+.footer .son .content{}
+.content .content-text{}
+.content .content-text>img{
+    background-color: #d95b44;
+    border-radius: 50%;
+    display: inline;
+}
+.content .content-text>h3{
+    display: inline-block;
+    margin-bottom: 14px;
+}
+.content .slides2{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.slides2 .left-button{
+    position: absolute;
+    width: 30px;
+    height:30px;
+    background-color: black;
+    z-index: 2;
+    top: 50px;
+    left: 0px;
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.slides2 .right-button{
+    position: absolute;
+    width: 30px;
+    height:30px;
+    background-color: black;
+    z-index: 2;
+    top: 50px;
+    right: 0px;
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.content .slides2 ._1slide2{
+    width: 240px;
+    padding-right: 9px;
+}
+.content .slides2 ._1slide2 .tren{
+    position: relative;
+}
+.content .slides2 ._1slide2 .tren .photo{width: 240px;}
+.content .slides2 ._1slide2 .tren i{
+    position: absolute;
+    z-index: 2;
+    top: 26px;
+    left: 71px;
+    color: gray;
+    background: white;
+    width: 100px;
+    height: 100px;
+    font-size: 77px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.content .slides2 ._1slide2 .tren i:hover{
+    opacity: 1;
+}
+.content .slides2 ._1slide2 .duoi{
+    margin-top: 12px;
+    font-family: Segoe Ui;
+}
+.content .slides2 ._1slide2 .duoi>h4{
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: gray;
+}
+.content .slides2 ._1slide2 .duoi>p{
+    color: gray;
+    font-size: 14px;
+}
